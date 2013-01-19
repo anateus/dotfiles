@@ -123,3 +123,9 @@ alias go='git checkout '
 
 
 set -o vi
+
+#Make Bash correct small typos when moving to another directory
+shopt -s cdspell
+
+export JAVA_HOME=/usr/lib/jvm/jdk1.7.0_11
+export PATH=$JAVA_HOME/bin:$HOME/Intellij-IDEA/bin:/usr/local/apache-maven-3.0.4/bin:$PATH
