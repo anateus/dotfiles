@@ -17,6 +17,8 @@ set hlsearch
 
 set laststatus=2
 
+set clipboard=unnamed
+
 let mapleader = ","
 let g:mapleader = ","
 
