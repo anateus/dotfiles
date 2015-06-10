@@ -42,7 +42,9 @@ set expandtab
 set shiftwidth=4
 set softtabstop=4
 
-autocmd InsertEnter * :set number
+set relativenumber
+set number
+autocmd InsertEnter * :set number | set norelativenumber
 autocmd InsertLeave * :set relativenumber
 
 let g:airline#extensions#tabline#enabled=1
